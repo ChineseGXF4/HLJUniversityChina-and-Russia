@@ -1,0 +1,13 @@
+body{
+    padding:0;
+    margin: 0;
+}
+ul li{
+    display-list: none;
+}
+img{
+    border: 0;
+}
+.f15px{
+    font-size: 15px;
+}
