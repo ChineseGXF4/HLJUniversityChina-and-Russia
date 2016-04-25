@@ -14,10 +14,15 @@ img{
 .f14px{
     font-size: 14px;
 }
+.f12px{
+    font-size: 12px;
+}
 
 
-
-/*这是左边的通用，晓得地方自己修改*/
+/*这是左边的通用，小的地方自己修改*/
+.newroman{
+    font-family:"Times New Roman";
+}
 .container1{
     /*border: 1px solid red;*/
     position: relative;
@@ -62,52 +67,75 @@ img{
     border-bottom:1px solid red;border-right: 1px solid white;
     /*margin-left: -1px;*/
 }
-.f15px_1{
+.f15px_1,.f15px_2,.f15px_3,.f15px_4,.f15px_5,.f15px_6,.f15px_7,.f15px_8{
+    font-weight: 400;
     border-bottom:1px solid white;
-    width: 290px;
-    height: 43px;
-    position: relative;
-    /*left: 0;*/
-    /*top: 51px ;*/
-    margin-top: 1px;
-    margin-left: 3px;
+    width: 285px;
+    height: 40px;
+    position: absolute;
+    left: 45px;
 }
-.f15px_1 li{
-
+.f15px_2{
+    top:103px ;
+}
+.f15px_3{
+    top: 146px;
+}
+.f15px_4{
+    top: 189px;
+}
+.f15px_5{
+    top: 232px;
+}
+.f15px_6{
+    top: 275px;
+}
+.f15px_7{
+    top: 318px;
+}
+.f15px_8{
+    top: 361px;
+}
+.f15px_1{
+    top: 60px;
 }
 .f15px_1_1{
+    /*border: 1px solid blue;*/
+    width: 1px;
+    height: 20px;
+    margin-top: 12px;
+}
+.red-cir{
     width: 5px;
     height: 5px;
     border-radius: 5px;
     background:#e70000;
-    /*position: absolute;*/
+    position: absolute;
     /*top: 0;*/
     /*left: 0;*/
-    margin-left:13px;
-    margin-top: 24px;
-    float: left;
-
 }
 .f15px_1_2{
-    font-size: 14px;
-    color: #083689;
-    /*border: 1px solid red;*/
-    float: left;
-    font-weight: 400;
-    margin-top: 15px;
-    margin-left: 2px;
-    width: 270px;
-    height: 40px;
-    line-height: 22px;
+    width: 285px;
+    height: 23px;
+    /*border: 1px solid green;*/
     text-align: left;
+    margin-top: -41px;
+    margin-left: 8px;
+    color: #083689;
 }
-.f15px_1_2_1{
+.f15px_1_3{
+    width: 255px;
+    height: 18px;
+    /*border: 1px solid red;*/
+    /*float: right;*/
+    margin-top: -8px;
+    margin-left: 10px;
+    text-align: left;
     font-size: 12px;
     color: #5ab3ff;
-    margin-left:5px;
-    margin-top: 0;
+    font-family:"Times New Roman";
 }
-.f15px_2{
+.f15px_9{
     font-size: 15px;
     color: #083689;
     text-align: right;
@@ -116,6 +144,9 @@ img{
     width: 285px;
     height: 40px;
     line-height: 40px;
+    position: absolute;
+    top: 410px;
+    right: 20px;
 }
 .left-common-one,.left-common-two{
     width: 300px;
@@ -192,12 +223,20 @@ img{
 .f14px{
     margin-top: 4px;
 }
+.f14px_1{
+    font-size: 14px;
+    margin-top: 4px;
+    text-align: center;
+    margin-left: -42px;
+}
 .f14px-span-tel{
     font-family:"Times New Roman";
+    margin-left: -5px;
 }
 .f14px-span-email{
     color: #de0000;
     font-family:"Times New Roman";
+    margin-left: -5px;
 }
 #center_news:hover{
     border-top: 1px solid red;border-right: 1px solid red;border-bottom: none;
