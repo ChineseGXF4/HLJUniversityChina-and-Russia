@@ -1,8 +1,10 @@
 .sci_Por_Container{
     float: left;
     width: 690px;
-    min-height: 950px;
+    min-height: 960px;
     margin:10px 0 0 10px;
+    font: 14px 宋体;
+    text-align: center;
 }
 .Con_Nav{
     font:24px 微软雅黑;
@@ -20,9 +22,10 @@
     margin-left: 380px;
 }
 .proTable{
+
     width: 690px;
     border-spacing:0;
-    margin-top: 10px;
+    margin: 10px 0 30px 0;
 }
 .proTable th{
     font: normal 15px 宋体;
@@ -36,12 +39,22 @@
     width: 90px;
     height: 40px;
     font: 15px 宋体;
+    text-align: left;
     padding-left: 15px;
     color: #083487;
     border-bottom: 1px solid #a1dbff;
 }
-.proTable tr .f14px{
+.proTable tr .f13px{
     font: 13px 宋体;
     text-align: center;
     color: #373737;
+}
+.sci_Por_Container span{
+    padding:5px ;
+    margin-left: 5px;
+    color: #036cb4;
+    border: 1px solid #eeeeee;
+}
+.sci_Por_Container span:hover{
+    background-color: #cccccc;
 }
