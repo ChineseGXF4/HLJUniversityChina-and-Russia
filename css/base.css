@@ -63,6 +63,7 @@ a {
     background-image: url("../images/top_but.png");
 }
 .footer{
+    clear: both;
     position: relative;
     width: 100%;
     min-width: 900px;
