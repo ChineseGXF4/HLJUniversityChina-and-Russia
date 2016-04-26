@@ -1,0 +1,47 @@
+.sci_Por_Container{
+    float: left;
+    width: 690px;
+    min-height: 950px;
+    margin:10px 0 0 10px;
+}
+.Con_Nav{
+    font:24px 微软雅黑;
+    width: 680px;
+    height: 50px;
+    line-height: 50px;
+    color: #aa2b2b;
+    background-color: #e3e3e3;
+    padding-left: 10px;
+}
+.Con_Nav span{
+    text-align: right;
+    font: 14px 宋体;
+    color: #575858;
+    margin-left: 380px;
+}
+.proTable{
+    width: 690px;
+    border-spacing:0;
+    margin-top: 10px;
+}
+.proTable th{
+    font: normal 15px 宋体;
+    height: 30px;
+    color: #373737;
+    border-bottom: 1px solid #a1dbff;
+    border-top: 1px solid #a1dbff;
+    background:#e7f2f9 url("../images/th_bg.png") no-repeat right;
+}
+.proTable tr td{
+    width: 90px;
+    height: 40px;
+    font: 15px 宋体;
+    padding-left: 15px;
+    color: #083487;
+    border-bottom: 1px solid #a1dbff;
+}
+.proTable tr .f14px{
+    font: 13px 宋体;
+    text-align: center;
+    color: #373737;
+}
