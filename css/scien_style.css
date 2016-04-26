@@ -1,10 +1,27 @@
-.sci_Por_Container{
-    float: left;
-    width: 690px;
-    min-height: 950px;
-    margin:10px 0 0 10px;
+table{
+    border-collapse: collapse;
 }
-.Con_Nav{
+table td{
+    border: 1px solid #a1dbff;
+}
+.sci_Por_Container{
+    /*float: left;*/
+    width: 690px;
+    min-height: 960px;
+    margin:10px 0 0 10px;
+    font: 14px 宋体;
+    text-align: center;
+}
+.footerSpan{
+    padding:5px ;
+    margin-left: 5px;
+    color: #036cb4;
+    border: 1px solid #eeeeee;
+}
+.footerSpan:hover{
+    background-color: #cccccc;
+}
+.Con_Nav,.Con_Nav_information{
     font:24px 微软雅黑;
     width: 680px;
     height: 50px;
@@ -13,7 +30,7 @@
     background-color: #e3e3e3;
     padding-left: 10px;
 }
-.Con_Nav span{
+.Con_Nav span,.Con_Nav_information span{
     text-align: right;
     font: 14px 宋体;
     color: #575858;
@@ -22,7 +39,7 @@
 .proTable{
     width: 690px;
     border-spacing:0;
-    margin-top: 10px;
+    margin: 10px 0 30px 0;
 }
 .proTable th{
     font: normal 15px 宋体;
@@ -36,12 +53,123 @@
     width: 90px;
     height: 40px;
     font: 15px 宋体;
+    text-align: left;
     padding-left: 15px;
     color: #083487;
+    border: none;
     border-bottom: 1px solid #a1dbff;
 }
-.proTable tr .f14px{
+.proTable tr .f13px{
     font: 13px 宋体;
     text-align: center;
     color: #373737;
+}
+.proTable tr:hover{
+    background-color: #c5e8ff;
+}
+.proTable tr:hover a{
+    color: #d50000;
+    text-decoration: underline;
+}
+.Con_Nav_information{
+    width: 990px;
+}
+.Con_Nav_information span{
+    margin-left: 666px;
+}
+.sci_Por_Container_Information{
+    /*border: 1px solid;*/
+    width: 1000px;
+    min-height: 600px;
+    margin: 10px 100px;
+}
+.proInformation{
+    width: 930px;
+    height: 250px;
+    margin: 30px auto 0;
+    padding: 6px;
+    border: 1px solid #e3e3e3;
+}
+.proPreInformation{
+    width: 930px;
+    height: 205px;
+    margin: 20px auto 0;
+    padding: 6px;
+    border: 1px solid #e3e3e3;
+}
+.proInformation_top,.Information_top{
+    width: 910px;
+    font:bolder 20px 微软雅黑;
+    line-height: 40px;
+    margin: 0 auto 10px;
+    color: #cc0000;
+    border-bottom: 2px solid #cc0000;
+}
+.proInformation_top a,.Information_top a{
+    font:bolder 16px 微软雅黑;
+    color: #cc0000;
+    margin-left: 680px;
+}
+.proInformationTable,.proPreInformationTable{
+    width: 98%;
+    margin: 0 auto;
+}
+.proInformationTable td{
+    width: 16%;
+    height: 35px;
+    font:bolder 15px 宋体;
+    color: #083386;
+    padding-left: 6px;
+}
+.proPreInformationTable td{
+    height: 35px;
+    padding-left: 6px;
+    font: normal 14px 宋体;
+}
+.proInformationTable .alt,.proPreInformationTable .alt,.Information table .alt{
+    background-color: #e4f1f8;
+    font: normal 14px 宋体;
+    color: #232323;
+    text-align: right;
+}
+.Information{
+    /*border: 1px solid;*/
+    position: absolute;
+    top: 440px;
+    left: 420px;
+    width: 690px;
+    height:520px;
+    background-color: #ffffff;
+    display: none;
+}
+.Information_top{
+    width: 100%;
+}
+.Information_top a{
+    margin-left: 430px;
+    color: #232323;
+}
+.Information table{
+    width: 675px;
+    /*height: 230%;*/
+}
+.Information table td{
+    width: 25%;
+    height: 30px;
+    border: 1px solid #a1dbff;
+    color: #333333;
+    font:bolder 15px 宋体;
+}
+.Information .peo_infor td{
+    font: 15px 宋体;
+}
+.proTable tr:hover{
+    background-color: #ffffff;
+}
+.proTable tr:hover .Information_top a{
+    text-decoration: none;
+    color: #232323;
+}
+.proTable tr:hover .Information{
+    display: block;
 }

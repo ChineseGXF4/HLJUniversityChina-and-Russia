@@ -1,6 +1,7 @@
 body{
     padding:0;
     margin: 0;
+
 }
 ul li{
     list-style: none;
@@ -18,6 +19,266 @@ img{
     font-size: 12px;
 }
 
+/*hearder+footer*/
+.top{
+    background: url("../images/menu_user.png") repeat-x #cb0000;
+    width: 100%;
+    min-width: 1080px;
+    height: 41px;
+    line-height: 41px;
+    font-size: 14px;
+}
+.top span{
+    margin:0 12px 0 12px;
+    color: #df0000;
+}
+.top .user,.top .retrieval{
+    font:italic bolder 18px 微软雅黑;
+    color:#083487 ;
+    margin-left: 140px;
+}
+.top .retrieval{
+    margin:0 12px 0 150px;
+}
+.top a{
+    display: inline-block;
+    width: 70px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    background-image: url("../images/Hyperlink_bg.png");
+    color: #fff;
+    margin-left: 13px;
+    text-decoration: none;
+}
+.top_tex{
+    width: 110px;
+    height: 20px;
+    margin: 0 7px 0 10px;
+}
+.top_but{
+    border: none;
+    width: 47px;
+    height: 21px;
+    color: #fff;
+    background-image: url("../images/top_but.png");
+}
+.footer{
+    clear: both;
+    position: relative;
+    width: 100%;
+    min-width: 900px;
+    height: 319px;
+    background-color: #083588;
+    padding-top: 16px;
+}
+.online{
+    background-image:url("../images/online.png") ;
+    width: 169px;
+    height: 55px;
+    position: absolute;
+    left: 130px;
+}
+.footer_menu1{
+    background: url("../images/online_spr2.png") no-repeat ;
+    width: 164px;
+    height: 59px;
+    position: absolute;
+    left: 360px;
+}
+.footer_menu1:hover{
+    background: url("../images/online_spr.png") no-repeat ;
+}
+.footer_menu2{
+    background: url("../images/online_spr2.png") no-repeat 0 -59px;
+    width: 164px;
+    height: 59px;
+    position: absolute;
+    left:544px;
+}
+.footer_menu2:hover{
+    background: url("../images/online_spr.png") no-repeat 0 -59px;
+}
+.footer_menu3{
+    background: url("../images/online_spr2.png") no-repeat 0 -118px;
+    width: 164px;
+    height: 59px;
+    position: absolute;
+    left: 728px;
+}
+.footer_menu3:hover{
+    background: url("../images/online_spr.png") no-repeat 0 -118px;
+}
+.footer_menu4{
+    background: url("../images/online_spr2.png") no-repeat 0 -177px;
+    width: 164px;
+    height: 59px;
+    position: absolute;
+    left: 912px;
+}
+.footer_menu4:hover{
+    background: url("../images/online_spr.png") no-repeat 0 -177px;
+}
+.interlink{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    width: 955px;
+    height: 125px;
+    padding-top:15px ;
+    padding-left: 45px;
+    border-bottom: 1px solid #79c1e7;
+    border-top: 1px solid #79c1e7;
+    color: #fff;
+}
+.interlink ul{
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.interlink ul li{
+    font: 15px 宋体;
+    float: left;
+    margin-left: 90px;
+    width: 110px;
+}
+.interlink ul li .second_ul{
+    margin-top: 0;
+}
+.interlink ul li .second_ul li{
+    clear: both;
+    margin: 10px 0 0 -70px;
+}
+.interlink ul li .second_ul li a{
+    color: #79c1e7;
+}
+.footer_botoom{
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    color: #a8caed;
+    text-align: center;
+    font: 14px 宋体;
+    line-height: 10px;
+}
+.nav{
+    width: 100%;
+    min-width: 1100px;
+    height: 45px;
+    background: url("../images/nav_bg.png") repeat-x;
+    color: #fff;
+}
+.nav ul{
+    margin-left: 50px;
+    margin-top: -16px;
+}
+.nav ul .first_li{
+    color: #fff;
+    font:15px 宋体;
+    font-weight: bolder;
+    float: left;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: url("../images/nav_li.png") no-repeat right;
+}
+.header{
+    width: 100%;
+    min-width:1100px ;
+    height: 144px;
+    background: url("../images/header_bg2.png") repeat-x;
+}
+.index_header{
+    width: 100%;
+    min-width:1100px ;
+    height: 363px;
+    background: url("../images/index_bg.png") repeat-x;
+}
+.header_cen{
+    width: 1000px;
+    height: 144px;
+    margin: 0 auto;
+    background-image: url("../images/header_bg.png");
+}
+.index_header_cen{
+    width: 1000px;
+    height: 365px;
+    margin: 0 auto;
+    background-image: url("../images/index_head_bg2.png");
+}
+.edition{
+    font: 16px 宋体;
+    position:relative;
+    top: 15px;
+    left: 780px;
+    line-height: 20px;
+}
+.edition span{
+    font:16px Times New Roman;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-right:1px solid #fff ;
+    border-left:1px solid #fff ;
+    margin: 0 8px 0 8px;
+}
+.edition a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.first_li ul{
+    position: absolute;
+    top: 246px;
+    display: none;
+    z-index: 1;
+}
+.first_li ul li{
+    width: 120px;
+    font:bolder 15px 宋体;
+    height: 35px;
+    line-height: 35px;
+    background-color: #a1dbff;
+    border-right:1px solid #aa2b2b ;
+    float: left;
+    color: #073285;
+}
+.first_li ul li span{
+    color: #ff0000;
+}
+.survey1{
+    left: 100px;
+}
+.survey2{
+    left: 200px;
+}
+.survey3{
+    left: 115px;
+}
+.survey4{
+    left: 500px;
+}
+.survey5{
+    left: 600px;
+}
+.survey6{
+    left: 586px;
+}
+.survey7{
+    left: 513px;
+}
+.nav ul .first_li:hover{
+    color: #aa2b2b;
+    background: url("../images/nav_hover.png") repeat-x;
+}
+.nav ul .first_li:hover ul{
+    display: block;
+}
+.nav ul .first_li ul li:hover{
+    background-color:#aa2b2b;
+    color: #fff;
+}
+/*hearder+footer*/
 
 /*这是左边的通用，小的地方自己修改*/
 .newroman{
