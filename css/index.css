@@ -1,3 +1,5 @@
+/*index*/
+
 .news{
     width: 998px;
     height: 325px;
@@ -1057,3 +1059,121 @@
 .scientific_menu li:hover .scientific_sign_blue{
     display: block;
 }
+
+/*user-register*/
+
+.register{
+    width: 1200px;
+    height: 680px;
+    background: url("../images/register.png");
+    position: relative;
+}
+.user_register{
+    width: 444px;
+    height: 600px;
+    background: url("../images/transportant_register.png");
+    position: absolute;
+    left: 608px;
+    top: 55px;
+}
+.user_top{
+    margin-left: 2px;
+    width: 441px;
+    height: 48px;
+    border-bottom: 3px solid #083588;
+
+}
+.user_register_blue{
+    width: 152px;
+    height: 40px;
+    position: relative;
+    top: 8px;
+    left:26px;
+    background: url("../images/user_register_blue.png");
+}
+.register_list{
+    width: 400px;
+    height: 600px;
+    font:bold 15px 宋体;
+    color: #083588;
+}
+.register_list{
+    margin-top: 14px;
+    width: 400px;
+    height: 600px;
+    font:bold 15px 宋体;
+    color: #083588;
+}
+.twowords{
+    letter-spacing: 38px;
+    display: inline-block;
+    margin-right: -24px;
+}
+.threewords{
+    letter-spacing: 12px;
+    display: inline-block;
+
+}
+.password{
+    position: relative;
+}
+.fourwords{
+    width: 84px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+.register_list input{
+    padding-left: 6px;
+    width: 148px;
+    height: 22px;
+    border: 1px solid #176ec7;
+    margin-top: 15px;
+    color: #083588;
+}
+#sex{
+    width: 45px;
+}
+#tine{
+    width: 90px;
+}
+.tine_png{
+    width: 56px;
+    height: 26px;
+    background: url("../images/tine.png");
+    display: inline-block;
+    position: relative;
+    top:7px;
+    left: 6px;
+}
+.alter{
+    width: 220px;
+    height: 72px;
+    position: absolute;
+    top: 10px;
+    left: 242px;
+    background: url("../images/alter.png") 0 -4px;
+    display: none;
+}
+.alter li{
+    color: #cfcfcf;
+    font: 12px 微软雅黑;
+    list-style-type: circle;
+    margin-top: 5px;
+    margin-left: -6px;
+}
+.alter_content{
+    color: #676767;
+}
+.password:hover .alter{
+    display: block;
+}
+.register_now{
+    width: 210px;
+    height: 56px;
+    background: url("../images/register_now.png");
+    position: absolute;
+    top: 490px;
+    left: 116px;
+}
+
+/**/
