@@ -223,7 +223,8 @@ a {
     width: 1000px;
     height: 365px;
     margin: 0 auto;
-    background: url("../images/index_head_bg2.gif") repeat-x;
+    background: url("../images/index_head_bg2.png") no-repeat;
+    _background: url("../images/index_head_bg2.gif") no-repeat;
 }
 .edition{
     width: 245px;
