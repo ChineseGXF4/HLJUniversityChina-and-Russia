@@ -300,38 +300,52 @@ a {
 }
 .first_li .ie6survey1{
     position: absolute;
-    top: 465px;
-    left: 268px;
+    top: 457px;
+    left: 254px;
+    _top: 465px;
+    _left: 268px;
 }
 .first_li .ie6survey2{
     position: absolute;
-    top: 465px;
-    left: 368px;
+    top: 457px;
+    left: 354px;
+   _top: 465px;
+    _left: 368px;
 }
 .first_li .ie6survey3{
     position: absolute;
-    top: 465px;
-    left: 290px;
+    top: 457px;
+    left: 276px;
+    _top: 465px;
+    _left: 290px;
 }
 .first_li .ie6survey4{
     position: absolute;
-    top: 465px;
-    left: 668px;
+    top: 457px;
+    left: 654px;
+    _top: 465px;
+    _left: 668px;
 }
 .first_li .ie6survey5{
     position: absolute;
-    top: 465px;
-    left: 768px;
+    top: 457px;
+    left: 754px;
+    _top: 465px;
+    _left: 768px;
 }
 .first_li .ie6survey6{
     position: absolute;
-    top: 465px;
-    left: 756px;
+    top: 457px;
+    left: 740px;
+    _top: 465px;
+    _left: 756px;
 }
 .first_li .ie6survey7{
     position: absolute;
-    top: 465px;
-    left: 680px;
+    top: 457px;
+    left: 670px;
+    _top: 465px;
+    _left: 680px;
 }
 .nav ul .first_li:hover{
     color: #aa2b2b;
