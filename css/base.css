@@ -55,6 +55,7 @@ img{
     top: -15px;
 }
 .f15px{
+    /*margin-left: 1px;*/
     float: left;
     /*border: 1px solid blue;*/
     width: 99px;
@@ -66,6 +67,9 @@ img{
     font-weight: bolder;
     border-bottom:1px solid red;border-right: 1px solid white;
     /*margin-left: -1px;*/
+}
+.opin_feed{
+    border-right: 3px solid red;
 }
 .f15px_1,.f15px_2,.f15px_3,.f15px_4,.f15px_5,.f15px_6,.f15px_7,.f15px_8{
     font-weight: 400;
@@ -240,6 +244,7 @@ img{
 }
 #center_news:hover{
     border-top: 1px solid red;border-right: 1px solid red;border-bottom: none;
+    color:#aa2b2b;
 }
 #center_news:hover {
     margin-top: -1px;
@@ -248,10 +253,12 @@ img{
     border: 1px solid red;border-bottom: none;
     margin-left: -1px;
     margin-top: -1px;
+    color:#aa2b2b;
 }
 #opin_feed:hover{
     border: 1px solid red;border-bottom: none;border-right: none;
     margin-left: -1px;
     margin-top: -1px;
+    color:#aa2b2b;
 }
 /*左边通用到此为止*/
