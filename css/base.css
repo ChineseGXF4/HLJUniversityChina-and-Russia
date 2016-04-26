@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 ul li{
-    display-list: none;
+    list-style: none;
 }
 img{
     border: 0;
