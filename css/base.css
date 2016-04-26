@@ -13,7 +13,6 @@ img{
     border: 0;
 }
 a {
-
     text-decoration: none;
 }
 .f15px{
@@ -24,7 +23,6 @@ a {
 }
 
 /*hearder+footer*/
-
 .top{
     background: url("../images/menu_user.png") repeat-x #cb0000;
     width: 100%;
@@ -374,11 +372,6 @@ a {
 }
 /*hearder+footer*/
 
-
-
-/*hearder+footer*/
-
-
 /**********************************************************************************************这是左边的通用，小的地方自己修改*/
 .newroman{
     font-family:"Times New Roman";
@@ -532,8 +525,6 @@ a {
     margin-top: -1px;
     color:#aa2b2b;
 }
-
-
 /****************************************************************************/
 /*************************left-common-style-two*****************************/
 .title-expertdata{
@@ -645,6 +636,8 @@ a {
     top: -204px;
 }
 /****************************************************************************/
+
+
 .left-common-one,.left-common-two{
     width: 300px;
     height: 49px;

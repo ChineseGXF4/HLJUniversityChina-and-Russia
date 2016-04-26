@@ -40,6 +40,7 @@ table td{
     width: 690px;
     border-spacing:0;
     margin: 10px 0 30px 0;
+
 }
 .proTable th{
     font: normal 15px 宋体;
@@ -50,7 +51,6 @@ table td{
     background:#e7f2f9 url("../images/th_bg.png") no-repeat right;
 }
 .proTable tr td{
-    width: 90px;
     height: 40px;
     font: 15px 宋体;
     text-align: left;
@@ -81,7 +81,7 @@ table td{
     /*border: 1px solid;*/
     width: 1000px;
     min-height: 600px;
-    margin: 10px 100px;
+    margin: 10px auto;
 }
 .proInformation{
     width: 930px;
@@ -141,6 +141,7 @@ table td{
     height:520px;
     background-color: #ffffff;
     display: none;
+    padding-left: 10px;
 }
 .Information_top{
     width: 100%;
