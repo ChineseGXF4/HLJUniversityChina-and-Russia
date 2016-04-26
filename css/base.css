@@ -1,6 +1,7 @@
-body{
+.body{
+    width: 1200px;
+    margin: 0 auto;
     padding:0;
-    margin: 0;
 }
 ul li{
     list-style: none;
@@ -23,7 +24,7 @@ a {
 .top{
     background: url("../images/menu_user.png") repeat-x #cb0000;
     width: 100%;
-    min-width: 1080px;
+    min-width: 1200px;
     height: 41px;
     line-height: 41px;
     font-size: 14px;
@@ -38,7 +39,7 @@ a {
     margin-left: 140px;
 }
 .top .retrieval{
-    margin:0 12px 0 150px;
+    margin:0 12px 0 220px;
 }
 .top a{
     display: inline-block;
@@ -61,25 +62,29 @@ a {
     height: 21px;
     color: #fff;
     background-image: url("../images/top_but.png");
+    /**background: none;*/
+    *bbackground-image: url("../images/top_but.gif");
 }
 .footer{
     clear: both;
     position: relative;
     width: 100%;
-    min-width: 900px;
+    min-width: 1200px;
     height: 319px;
     background-color: #083588;
     padding-top: 16px;
 }
 .online{
     background-image:url("../images/online.png") ;
+    _background-image:url("../images/online.gif") ;
     width: 169px;
     height: 55px;
     position: absolute;
     left: 130px;
 }
 .footer_menu1{
-    background: url("../images/online_spr2.png") no-repeat ;
+    background: url("../images/online_spr2.png") no-repeat 0 1px;
+    _background: url("../images/online_spr2.gif") no-repeat ;
     width: 164px;
     height: 59px;
     position: absolute;
@@ -87,9 +92,11 @@ a {
 }
 .footer_menu1:hover{
     background: url("../images/online_spr.png") no-repeat ;
+    _background: url("../images/online_spr.gif") no-repeat ;
 }
 .footer_menu2{
-    background: url("../images/online_spr2.png") no-repeat 0 -59px;
+    background: url("../images/online_spr2.png") no-repeat 0 -58px;
+    _background: url("../images/online_spr2.gif") no-repeat 0 -58px;
     width: 164px;
     height: 59px;
     position: absolute;
@@ -97,9 +104,11 @@ a {
 }
 .footer_menu2:hover{
     background: url("../images/online_spr.png") no-repeat 0 -59px;
+    _background: url("../images/online_spr.gif") no-repeat 0 -59px;
 }
 .footer_menu3{
-    background: url("../images/online_spr2.png") no-repeat 0 -118px;
+    background: url("../images/online_spr2.png") no-repeat 0 -117px;
+    _background: url("../images/online_spr2.gif") no-repeat 0 -117px;
     width: 164px;
     height: 59px;
     position: absolute;
@@ -107,9 +116,11 @@ a {
 }
 .footer_menu3:hover{
     background: url("../images/online_spr.png") no-repeat 0 -118px;
+    _background: url("../images/online_spr.gif") no-repeat 0 -118px;
 }
 .footer_menu4{
-    background: url("../images/online_spr2.png") no-repeat 0 -177px;
+    background: url("../images/online_spr2.png") no-repeat 0 -176px;
+    _background: url("../images/online_spr2.gif") no-repeat 0 -176px;
     width: 164px;
     height: 59px;
     position: absolute;
@@ -117,6 +128,7 @@ a {
 }
 .footer_menu4:hover{
     background: url("../images/online_spr.png") no-repeat 0 -177px;
+    _background: url("../images/online_spr.gif") no-repeat 0 -177px;
 }
 .interlink{
     position: absolute;
@@ -132,12 +144,15 @@ a {
 }
 .interlink ul{
     margin-left: 30px;
+    *margin-left: 50px;
     margin-top: -20px;
 }
 .interlink ul li{
     font: 15px 宋体;
     float: left;
     margin-left: 90px;
+    *margin-left: 105px;
+    _margin-left: 55px;
     width: 110px;
 }
 .interlink ul li .second_ul{
@@ -146,6 +161,8 @@ a {
 .interlink ul li .second_ul li{
     clear: both;
     margin: 10px 0 0 -70px;
+    *margin-left:-50px;
+    _margin-left: -25px;
 }
 .interlink ul li .second_ul li a{
     color: #79c1e7;
@@ -158,17 +175,20 @@ a {
     text-align: center;
     font: 14px 宋体;
     line-height: 10px;
+    *height:60px ;
+    *line-height: 16px;
 }
 .nav{
     width: 100%;
-    min-width: 1100px;
+    min-width: 1200px;
     height: 45px;
     background: url("../images/nav_bg.png") repeat-x;
     color: #fff;
 }
 .nav ul{
-    margin-left: 50px;
-    margin-top: -16px;
+    width: 1000px;
+    margin: -16px auto 0 auto;
+    *margin-top: 0px;
 }
 .nav ul .first_li{
     color: #fff;
@@ -183,13 +203,13 @@ a {
 }
 .header{
     width: 100%;
-    min-width:1100px ;
+    min-width: 1200px;
     height: 144px;
     background: url("../images/header_bg2.png") repeat-x;
 }
 .index_header{
     width: 100%;
-    min-width:1100px ;
+    min-width: 1200px;
     height: 363px;
     background: url("../images/index_bg.png") repeat-x;
 }
@@ -203,14 +223,16 @@ a {
     width: 1000px;
     height: 365px;
     margin: 0 auto;
-    background-image: url("../images/index_head_bg2.png");
+    background: url("../images/index_head_bg2.gif") repeat-x;
 }
 .edition{
+    width: 245px;
     font: 16px 宋体;
     position:relative;
     top: 15px;
     left: 780px;
     line-height: 20px;
+
 }
 .edition span{
     font:16px Times New Roman;
@@ -227,43 +249,89 @@ a {
 }
 .first_li ul{
     position: absolute;
-    top: 246px;
+    _width: 1000px;
+    top: 238px;
+    *top: 245px;
     display: none;
     z-index: 1;
 }
 .first_li ul li{
+    float: left;
     width: 120px;
     font:bolder 15px 宋体;
     height: 35px;
     line-height: 35px;
     background-color: #a1dbff;
     border-right:1px solid #aa2b2b ;
-    float: left;
     color: #073285;
+    _display: inline-block;
+    _overflow: hidden;
 }
 .first_li ul li span{
     color: #ff0000;
 }
 .survey1{
-    left: 100px;
+    left: 262px;
+    *left: 267px;
 }
 .survey2{
-    left: 200px;
+    left: 362px;
+    *left: 367px;
 }
 .survey3{
-    left: 115px;
+    left: 280px;
+    *left: 285px;
 }
 .survey4{
-    left: 500px;
+    left: 662px;
+    *left: 667px;
 }
 .survey5{
-    left: 600px;
+    left: 762px;
+    *left: 767px;
 }
 .survey6{
-    left: 586px;
+    left: 760px;
+    * left: 765px;
 }
 .survey7{
-    left: 513px;
+    left: 675px;
+    *left: 680px;
+}
+.first_li .ie6survey1{
+    position: absolute;
+    top: 465px;
+    left: 268px;
+}
+.first_li .ie6survey2{
+    position: absolute;
+    top: 465px;
+    left: 368px;
+}
+.first_li .ie6survey3{
+    position: absolute;
+    top: 465px;
+    left: 290px;
+}
+.first_li .ie6survey4{
+    position: absolute;
+    top: 465px;
+    left: 668px;
+}
+.first_li .ie6survey5{
+    position: absolute;
+    top: 465px;
+    left: 768px;
+}
+.first_li .ie6survey6{
+    position: absolute;
+    top: 465px;
+    left: 756px;
+}
+.first_li .ie6survey7{
+    position: absolute;
+    top: 465px;
+    left: 680px;
 }
 .nav ul .first_li:hover{
     color: #aa2b2b;
